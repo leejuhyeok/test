@@ -10,7 +10,7 @@ var turnReady;
 
 var pcConfig = {
   'iceServers': [{
-    'urls': 'stun:34.64.152.218:3478'
+    'urls': 'stun:stun.l.google.com:19302'
   }]
 };
 
@@ -103,7 +103,7 @@ var remoteVideo = document.querySelector('#remoteVideo');
 var remoteVideo2 = document.querySelector('#remoteVideo2');
 
 navigator.mediaDevices.getUserMedia({
-  audio: false,
+  audio: true,
   video: true
 })
 .then(gotStream)
