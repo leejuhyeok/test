@@ -10,7 +10,7 @@ var turnReady;
 
 var pcConfig = {
   'iceServers': [{
-    'urls': 'stun:stun.l.google.com:19302'
+    'urls': 'turn:34.64.152.218:3478'
   }]
 };
 
